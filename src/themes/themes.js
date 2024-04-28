@@ -1,7 +1,7 @@
-import { createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 
 
- export const theme = createTheme({
+ export const theme =ThemeProvider ({
   palette: {},  
   breakpoints: {
     values: {
